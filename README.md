@@ -55,7 +55,7 @@ The logic for the game is contained in the `Animals` module.  The
 module also defines the %Animals{} struct, and an encode/decoder for
 the Jason module (used to serialize the data and store/load it).
 
-The logic for the game itself is simple it is contained in the last 15
+The logic for the game itself is simple, it is contained in the last 15
 or so lines of code at the bottom of the module.  The %Animals{}
 struct is used to arrange the date in a binary tree which is module
 walks to guess an animal.
