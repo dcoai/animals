@@ -43,7 +43,7 @@ run the program:
 $ animals
 ```
 
-or if it is in your current directory use:
+or if running `animals` from your current directory use:
 
 ```
 $ ./animals
