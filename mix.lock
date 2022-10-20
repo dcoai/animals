@@ -1,0 +1,4 @@
+%{
+  "enquirer": {:hex, :enquirer, "0.1.0", "96ca1a330c919652db4baed6cf572d8c9957a8a305365c54490262c337996a18", [:mix], [], "hexpm", "59445208ad96171f10b2d21bc35032f6f7a49aa4cfd5d13d18f93730c49140bb"},
+  "jason": {:hex, :jason, "1.4.0", "e855647bc964a44e2f67df589ccf49105ae039d4179db7f6271dfd3843dc27e6", [:mix], [{:decimal, "~> 1.0 or ~> 2.0", [hex: :decimal, repo: "hexpm", optional: true]}], "hexpm", "79a3791085b2a0f743ca04cec0f7be26443738779d09302e01318f97bdb82121"},
+}
