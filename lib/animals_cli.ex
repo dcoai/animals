@@ -37,7 +37,7 @@ defmodule Animals.CLI do
     animal = Enquirer.get("What is the name of your animal?") |> select_answer
 
     txt =
-      "What is a yes/no question to tell the difference between #{animal |> article()} and #{orig_animal |> article()}"
+      "What is a yes/no question to tell the difference between #{animal |> article()} and #{orig_animal |> article()}?"
 
     question = Enquirer.get(txt) |> select_answer
 
@@ -60,7 +60,7 @@ defmodule Animals.CLI do
   end
 
   @impl Animals
-  def play_again(), do: Enquirer.ask("Play again?") |> select_answer
+  def play_again(), do: Enquirer.ask("\n\nPlay again?") |> select_answer
 
   def save(tree = %Animals{}) do
     Path.expand(@state_file)
